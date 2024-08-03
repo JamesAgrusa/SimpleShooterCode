@@ -2,6 +2,7 @@
 
 
 #include "Gun.h"
+
 #include "Components/SkeletalMeshComponent.h"
 
 // Sets default values
@@ -15,6 +16,7 @@ AGun::AGun()
 
 	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(Root);
+
 }
 
 // Called when the game starts or when spawned

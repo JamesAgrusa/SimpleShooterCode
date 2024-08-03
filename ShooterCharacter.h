@@ -42,5 +42,4 @@ private:
 
 	UPROPERTY()
 	AGun* Gun;
-	
 };
